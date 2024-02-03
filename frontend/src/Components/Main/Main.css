@@ -1,0 +1,88 @@
+.container{
+    background-color: #F4F7F9;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 15px;
+}
+.left_container{
+flex: 1;
+margin-top: 50px;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.right_container{
+    padding-left: 5px;
+    flex: 2.1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.thoughts{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+.footer{
+    position: relative;
+    margin-top: auto;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.icons img{
+    width: 35px;
+    height: auto;
+    border-style: none;
+    border-radius: 0;
+    margin-left: 30px;
+    background-color: tra;
+}
+ .author-img{
+    height: 325px;
+    width: 325px;
+    border-radius: 250px;
+}
+.right_container nav{
+/*     background-color: #161515;
+ */    border-radius: 53px;
+    margin-top: 15px;
+
+}
+ .right_container nav ul{
+    background-color: #161515;
+    border-radius: 53px;
+
+
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    color: #FBF5F5;
+    width: 800px;
+     height: 50px;
+    align-items: center;
+
+}
+ .right_container nav ul li{
+    padding: 0 5px;
+    
+}
+.linkk{
+    text-decoration: none;
+    color: inherit;
+}
+.main-content{
+    margin-top: 30px;
+    width: 770px;
+    height: 90vh;
+    padding: 16px 20px;
+    color: #161515;
+    background-color: #f3f1f1;
+    border-radius: 15px;
+}

@@ -1,0 +1,59 @@
+.contact h2{
+    text-align: center;
+    font-size: 35px;
+}
+.contact form{
+    display: flex;
+    font-size:20px;
+    margin: 45px 110px;
+    font-weight: 500;
+    flex-direction: column;
+    border: solid black 2px;
+    border-radius: 15px;
+    padding: 42px 60px;
+}
+.name{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.name input{
+    padding: 5px 0px 5px 7px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.email input{
+    padding: 5px 0px 5px 7px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.message textarea{
+    padding: 5px 0px 5px 7px;
+    border-radius: 5px;
+    font-size: 17px;
+    height: 60px;
+    border: solid black 1.6px;
+}
+.contact button{
+    margin: 5px 1px 0px 75%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color:rgb(250, 248, 243) ;
+    font-size: 15px;
+    border:solid black 2px;
+}
+label{
+    margin-bottom: 2px;
+}

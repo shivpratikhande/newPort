@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
  import leftImg from "../../Image/3.png"
  import "./Main.css"
 import { Link } from 'react-router-dom'
@@ -16,17 +16,11 @@ import Skills from './Pages/Skills'
 
 function Main() {
 
-  function Section(){
-    return( <div className="main-containt">
-    <About/>
-   </div>)
-  }
-
   return (
-    <div className='container'>
-      <div className="left_container">
+    <div className='bg-gray-100 flex justify-evenly w-screen h-screen pt-5 '>
+      <div className=" flex flex-1 mt-24 items-center flex-col ">
         <img src={leftImg} className='author-img' alt="image" />
-        <div className="thoughts">
+        <div className=" mt-16 font-bold pl-7 text-center ">
         "In the dance of life, every step is a decision, every pause a reflection, and every movement shapes your journey."
         </div>
         <div className="icons">
@@ -34,16 +28,15 @@ function Main() {
               <img src={twitter} alt="" />
               <img src={insta} alt="" />
               <img src={github} alt="" />
-              <i class="fa-brands fa-github"></i>
              
         </div>
-        <div className="footer">
+        <div className=" relative m-auto">
           <p>copyright under shivv. All rights reserved.</p>
         </div>
       </div>
-      <div className="right_container">
-        <nav>
-            <ul>
+      <div className=" flex flex-[2.1] pl-64 flex-col items-center">
+        <nav >
+            <ul className=' flex gap-16 bg-black text-white p-3 pl-16 pr-16 rounded-3xl font-bold text-lg' >
 
                 <li> <Link to = "/about" className='linkk' >About me</Link> </li>
                 <li> <Link to = "/contact"className='linkk'>Contact</Link> </li>

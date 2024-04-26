@@ -13,7 +13,7 @@ import Help from './Components/Main/Pages/Help';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-black">
       <Router>
       <FirstPage/>
       <Home/>

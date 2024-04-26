@@ -29,7 +29,7 @@ module.exports = {
         slideout: {
           from: {
             opacity: "0",
-            transform: "translateY(300px)", // Initial position outside the viewport
+            transform: "translateY(100px)", // Initial position outside the viewport
           },
           to: {
             opacity: "1",

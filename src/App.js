@@ -2,7 +2,7 @@ import './App.css';
 import FirstPage from './Components/FirstPage/FirstPage';
 import Home from './Components/Home/Home';
 import Main from './Components/Main/Main';
-import { BrowserRouter as Router, Route, Switch, Routes, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router} from 'react-router-dom';
 import About from "./Components/Main/Pages/About"
 import Blog from './Components/Main/Pages/Blog';
 import Contact from './Components/Main/Pages/Contact';

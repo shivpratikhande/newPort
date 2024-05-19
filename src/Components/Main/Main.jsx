@@ -38,7 +38,7 @@ function Main() {
         <nav >
             <ul className=' flex gap-16 bg-black text-white p-3 pl-16 pr-16 rounded-3xl font-bold text-lg' >
 
-                <li> <Link to = "/about" className='linkk' >About me</Link> </li>
+                <li> <Link to = "/" className='linkk' >About me</Link> </li>
                 <li> <Link to = "/contact"className='linkk'>Contact</Link> </li>
                 <li> <Link to = "/blog"className='linkk'>Blog</Link> </li>
                 <li> <Link to = "/resume"className='linkk'>Resume</Link> </li>
@@ -55,7 +55,7 @@ function Main() {
  */}
          <div className="main-content">
           <Routes>
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/resume" element={<Resume />} />

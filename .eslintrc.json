@@ -1,0 +1,6 @@
+{
+    "rules": {
+      "no-unused-vars": ["error", { "varsIgnorePattern": "(About|Blog|Contact|Resume|Skills|Help|useState|useEffect|Router|Switch|BrowserRouter)" }]
+    }
+  }
+  
